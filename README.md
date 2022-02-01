@@ -1,4 +1,7 @@
 # gridsome-plugin-brotli
+[![CI](https://github.com/agaengel/gridsome-plugin-precompress/workflows/CI/badge.svg)](https://github.com/agaengel/gridsome-plugin-precompress/actions)
+[![Known Vulnerabilities](https://snyk.io/test/npm/gridsome-plugin-precompress/badge.svg)](https://snyk.io/test/npm/gridsome-plugin-precompress)
+[![Coverage Status](https://coveralls.io/repos/github/agaengel/gridsome-plugin-precompress/badge.svg?branch=main)](https://coveralls.io/github/agaengel/gridsome-plugin-precompress?branch=main)
 
 Gridsome plugin for preparing brotli and gzip pre compressed versions of assets.
 
