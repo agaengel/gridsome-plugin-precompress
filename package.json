@@ -1,0 +1,39 @@
+{
+  "name": "gridsome-plugin-precompress",
+  "version": "1.0.0",
+  "description": "Gridsome plugin for preparing brotli or gzip compressed versions of assets",
+  "main": "gridsome.server.js",
+  "author": {
+    "name": "Alexander Gaengel",
+    "email": "gridsome-plugin-precompress@gaengel.de"
+  },
+  "scripts": {
+    "lint": "standard",
+    "test": "standard && tap test/*.test.js --coverage --100",
+    "test:report": "standard && tap test/*.test.js --coverage  --coverage-report=html --100",
+    "posttest": "tap --coverage --coverage-report=lcovonly"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/agaengel/gridsome-plugin-precompress#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/agaengel/gridsome-plugin-precompress.git"
+  },
+  "keywords": [
+    "compress",
+    "gridsome",
+    "gridsome-plugin",
+    "brotli",
+    "gzip"
+  ],
+  "dependencies": {
+    "glob": "^7.2.0",
+    "mkdirp": "^1.0.4",
+    "piscina": "^3.2.0"
+  },
+  "devDependencies": {
+    "sinon": "^13.0.0",
+    "standard": "^16.0.4",
+    "tap": "^15.1.6"
+  }
+}
